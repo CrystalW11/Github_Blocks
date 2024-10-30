@@ -1,0 +1,72 @@
+.container {
+    margin: 0 auto;
+    /* overflow: hidden; */
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px groove darkslategrey;
+    border-radius: 20px;
+}
+
+.top-nav {
+    display: flex;
+    margin: auto;
+    /* Make top-nav a flex container */
+    flex-direction: column;
+    /* Arrange rows vertically */
+    align-items: center;
+    /* Center rows horizontally */
+    width: 100%;
+    /* Ensure it uses full width of container */
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    /* Reduced padding for better fit */
+    margin: 10px 0;
+    /* Reduce vertical margin between rows */
+    width: 90%;
+    /* Allow rows to take full width */
+}
+
+.row1 {
+    background-color: cornflowerblue;
+}
+
+.row2 {
+    background-color: palevioletred;
+}
+
+.row3 {
+    background-color: palegreen;
+}
+
+h1 {
+    text-align: center;
+    font-size: 150px;
+    font-weight: 800;
+    color: darkslategrey;
+    margin-bottom: 20px;
+    /* Add space below h1 for better separation */
+}
+
+#container {
+    background-color: rgb(241, 190, 145);
+    margin: 200px;
+    border-top: solid;
+    height: fit-content;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: grey;
+}
