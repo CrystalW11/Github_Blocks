@@ -18,6 +18,7 @@ Pick your favorite colors and your favorite images from the Octodex to recreate 
 
 <video controls src="20241030-2325-06.7839110.mp4" title="Title"></video>
 
+![alt text](image-1.png)
 <hr/>
 
 - [x] Download 8 Octodex images
